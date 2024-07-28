@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.signinMainContainer{
+width: 100%;
+height: 100vh;
+background-color: rgb(231, 239, 245);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.signinBody {
+    width: 70%;
+    height: 50vh;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid aqua;
+}
+
+.signinAndFromGoogle {
+    width: 40%;
+    height: 50vh;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+}
+.signinAndFromGoogle span{
+    font-size: 26px;
+    font-weight: 500;
+    position: relative;
+    left: 30px;
+    top: -20px;
+}
+.signinAndFromGoogle button{
+    width: 230px;
+    height: 48px;
+    border: 3px solid #0b57d0;
+    background-color: #0b57d0;
+    color: white;
+    box-shadow: none;
+    position: relative;
+    left: 30px;
+    top: 40px;
+    font-size: 18px;
+}
+.signinAndFromGoogle img{
+  width: 60px;
+  height: 60px;
+  position: relative;
+  left: 30px;
+  top: -40px;
+}
+
+.fieldsAndButton {
+    width: 60%;
+    height: 50vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.inputFields{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+.inputFields input{
+    width: 350px;
+    height: 48px;
+    padding-left: 10px;
+    border: 1px solid black;
+    box-shadow: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.inputFields input:focus {
+    border: 2px solid #0b57d0;
+}
+.createAndSignin{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.createAndSignin button {
+    width: 90px;
+    height: 45px;
+    border-radius: 100px;
+    border: none;
+    box-shadow: none;
+    background-color: #0b57d0;
+    color: white;
+    font-size: 18px;
+}
+
+.createAndSignin span {
+    color: #0b57d0;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.errorMessage{
+    position: relative;
+    top: -30px;
+}
